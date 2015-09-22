@@ -49,6 +49,7 @@ To run this evaluation tool, the following are needed:
 .com/ai2-s2/pipeline/source-data/citation-edges/citation-edges-2014-08-25.txt) from Amazon S3 to `~/eval/data/acl` folder.
 - Create the following folders in `~/eval/data/acl/extracted`: `pstotext`, `metatagger`, `grobid`, `iesl-pdf-to-text`, `rpp`.
 
+
 ### Running Meta-Eval
 
 You are now ready to run and evaluate Metatagger and Grobid on the ACL data set using the commands in the [Makefile](https://github.com/allenai/meta-eval/blob/master/Makefile) in meta-eval's home directory.
