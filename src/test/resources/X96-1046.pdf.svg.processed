@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <header>
+    <title>A Sample of the TREC-4 Participants  CLARITECH/Carnegie Melon University  CITRI</title>
+    <date>November 1995</date>
+    <authors>
+      <person>
+        <person-first>Inc Ge Corporate R. &amp;. D.</person-first>
+        <person-last>Defense Excalibur Technologies</person-last>
+      </person>
+    </authors>
+  </header>
+  <references>
+    <reference>
+      <title>National Insti-  tute of Standards and</title>
+      <marker>[1]</marker>
+      <date>
+        <year>(1994).</year>
+      </date>
+      <date>
+        <year>20899.</year>
+      </date>
+      <authors>
+        <person>
+          <person-first>D. (</person-first>
+          <person-last>Harman</person-last>
+        </person>
+      </authors>
+      <venue />
+      <venue>
+        <booktitle>Overview of the Third  Text REtrieval Conference (TREC</booktitle>
+        <pages>-3).</pages>
+      </venue>
+      <venue>
+        <journal>Technology Special Publication</journal>
+        <address>Gaithersburg, Md.</address>
+        <volume>500</volume>
+        <pages>-225,</pages>
+      </venue>
+    </reference>
+    <reference>
+      <marker>[2]</marker>
+      <date>
+        <year>(1996).</year>
+      </date>
+      <authors>
+        <person>
+          <person-first>D.  (</person-first>
+          <person-last>Harman</person-last>
+        </person>
+      </authors>
+      <venue />
+      <venue>
+        <booktitle>The  Fourth  Text  REtrieval Conference (TREC-4).</booktitle>
+      </venue>
+    </reference>
+    <reference>
+      <title>Report on the Need for and Provision of an  '?deal"  Information Retrieval Test Collection,</title>
+      <marker>[3]</marker>
+      <date>
+        <year>(1975).</year>
+      </date>
+      <authors>
+        <person>
+          <person-first>Jones</person-first>
+          <person-last>Sparck</person-last>
+        </person>
+        <person>
+          <person-first>C.</person-first>
+          <person-last>Van  Rijsbergen</person-last>
+        </person>
+      </authors>
+      <venue />
+      <venue>
+        <booktitle>British Library  Research  and Development Report</booktitle>
+      </venue>
+    </reference>
+    <reference>
+      <marker>[4]</marker>
+      <date>
+        <year>(1983).</year>
+      </date>
+      <authors>
+        <person>
+          <person-first>G.</person-first>
+          <person-last>Salton</person-last>
+        </person>
+        <person>
+          <person-first>M.</person-first>
+          <person-last>McGiU</person-last>
+        </person>
+      </authors>
+      <venue />
+      <venue>
+        <booktitle>Introduction to  Modern  Information  Retrieval.</booktitle>
+        <address>New  York,  NY.:</address>
+      </venue>
+    </reference>
+    <reference>
+      <title>Pivoted  Document  Length Normalization.</title>
+      <marker>[5]</marker>
+      <date>
+        <year>(1996).</year>
+      </date>
+      <authors>
+        <person>
+          <person-first>A.,</person-first>
+          <person-last>Singhal</person-last>
+        </person>
+        <person>
+          <person-first>C.,</person-first>
+          <person-last>Buckley</person-last>
+        </person>
+        <person>
+          <person-first>M.</person-first>
+          <person-last>Mitra</person-last>
+        </person>
+      </authors>
+      <venue />
+      <venue>
+        <booktitle>In:  Pro-  ceedings  of  the  19th  Annual International ACM  SIGIR Conference on Research and Development in  Information Retrieval,</booktitle>
+      </venue>
+    </reference>
+    <reference>
+      <title>A New Method of Weighting  Query  Terms.</title>
+      <marker>[6]</marker>
+      <date>
+        <year>(1996).</year>
+      </date>
+      <authors>
+        <person>
+          <person-first>K.L.</person-first>
+          <person-last>Kwok</person-last>
+        </person>
+      </authors>
+      <venue />
+      <venue>
+        <booktitle>Proceedings  of the  19th  Annual  International ACM SIGIR  Conference on  Research  and Development in Information Retrieval,</booktitle>
+      </venue>
+    </reference>
+    <reference>
+      <title>Query Expansion  using Local and Global Document Analysis.</title>
+      <marker>[7]</marker>
+      <date>
+        <year>(1996).</year>
+      </date>
+      <authors>
+        <person>
+          <person-first>J.</person-first>
+          <person-last>Xu</person-last>
+        </person>
+        <person>
+          <person-first>W.B.</person-first>
+          <person-last>Croft</person-last>
+        </person>
+      </authors>
+      <venue />
+      <venue>
+        <booktitle>In: Pro-  ceedings  of the  19th  Annual International ACM  SIGIR Conference on Research and Development in  Information Retrieval,</booktitle>
+      </venue>
+    </reference>
+    <reference>
+      <title>Search-  ing Distributed Collections with Inference Networks.</title>
+      <marker>[8]</marker>
+      <date>
+        <year>(1996).</year>
+      </date>
+      <authors>
+        <person>
+          <person-first>J.P.,</person-first>
+          <person-last>CaUan</person-last>
+        </person>
+        <person>
+          <person-first>Z.,</person-first>
+          <person-last>Lu</person-last>
+        </person>
+        <person>
+          <person-first>W.B.</person-first>
+          <person-last>Croft</person-last>
+        </person>
+      </authors>
+      <venue />
+      <venue>
+        <journal>Information Retrieval,</journal>
+        <booktitle>In:  Proceedings of the  18th  Annual International  ACM SIGIR Conference on Research and Develop-  ment</booktitle>
+        <pages>21-29.</pages>
+      </venue>
+    </reference>
+    <reference>
+      <marker>[9]</marker>
+      <date>
+        <year>(1995).</year>
+      </date>
+      <authors>
+        <person>
+          <person-first>K.</person-first>
+          <person-last>Sparck  Jones</person-last>
+        </person>
+      </authors>
+      <venue />
+      <venue>
+        <booktitle>Reflections  on TREC.  Information  Processing  and  Management,</booktitle>
+        <volume>31(</volume>
+        <pages>291-314.</pages>
+      </venue>
+    </reference>
+  </references>
+</document>

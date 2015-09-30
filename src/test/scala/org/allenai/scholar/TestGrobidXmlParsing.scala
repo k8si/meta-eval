@@ -126,4 +126,8 @@ object IoHelpers {
       getClass.getResourceAsStream(s"/$id.tei.xml")
     ))(_.mkString)
   }
+  def loadXmlFile(id: String): String = {
+    Resource.using(Source.fromInputStream(getClass.getResourceAsStream(s"/$id")))(_.mkString)
+  }
+
 }

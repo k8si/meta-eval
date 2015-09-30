@@ -5,10 +5,14 @@ import java.nio.file.{ Files, Paths }
 
 object Main extends App {
   import Config._
+
+  def runTest(): Unit = println("hello world")
+
   /** Run only Grobid's processHeader for now, not fullText.
     * https://github.com/kermitt2/grobid/wiki/Grobid-batch-quick-start
     */
   def runGrobid(): Unit = {
+    println("RUN GROBID!!!")
     val processCmd = s"""java -Xmx4096m
                          -jar $grobidJar -gH $grobidHome
                          -gP $grobidProperties
@@ -83,24 +87,36 @@ object Main extends App {
   }
 
   def runRPP() = {
-    val cmd = s"./batchrun.sh $rppHome file://$rppLexicons $ieslPdfToTextExtracted $rppExtracted"
+    println(ieslPdfToTextExtracted)
+    val cmd = s"./batchrun.sh $rppHome file://$rppLexicons $ieslPdfToTextExtracted $rppAclExtracted"
     runProcess(cmd, cwd = Some(rppHome))
   }
 
-//  def evalRPP(): Unit = {
-//    Eval(
-//      algoName = "RPP",
-//      taggedFiles = new File(rppExtracted).listFiles,
-//      taggedFileParser = RppParser.parseCoreMetadata
-//    ).run(aclMetadata, aclCitationEdges, Some(aclIdWhiteList))
-//  }
-//
-//  val cmds = this.getClass.getDeclaredMethods.map(m => m.getName -> m).toMap
-//
-//  cmds get args(0) match {
-//    case Some(m) =>
-//      println(s"Invoking ${m.getName}")
-//      m.invoke(this)
-//    case _ => println(s"Unrecognized cmd: ${args(0)}")
-//  }
+  def evalRPP(): Unit = {
+    Eval.run(
+      algoName = "RPP",
+      parser = RPPParser.extractMetadataAndBib,
+      extractedDir = new File(rppAclExtracted),
+      groundTruthMetadataFile = aclMetadata,
+      groundTruthCitationEdgesFile = aclCitationEdges,
+      idWhiteListFile = Some(aclIdWhiteList)
+    )
+  }
+
+  //  def evalRPP(): Unit = {
+  //    Eval(
+  //      algoName = "RPP",
+  //      taggedFiles = new File(rppExtracted).listFiles,
+  //      taggedFileParser = RppParser.parseCoreMetadata
+  //    ).run(aclMetadata, aclCitationEdges, Some(aclIdWhiteList))
+  //  }
+  //
+  val cmds = this.getClass.getDeclaredMethods.map(m => m.getName -> m).toMap
+
+  cmds get args(0) match {
+    case Some(m) =>
+      println(s"Invoking ${m.getName}")
+      m.invoke(this)
+    case _ => println(s"Unrecognized cmd: ${args(0)}")
+  }
 }

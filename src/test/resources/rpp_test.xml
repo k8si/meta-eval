@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <header>
+        <title>ALGORITHMS THAT LEARN TO EXTRACT INFORMATION m  BBN: TIPSTER PHASE III</title>
+        <authors>
+            <person>
+                <person-first>Michael</person-first>
+                <person-last>Crystal</person-last>
+            </person>
+            <person>
+                <person-first>Scott</person-first>
+                <person-last>Miller</person-last>
+            </person>
+        </authors>
+        <date>November 1995</date>
+    </header>
+    <references>
+        <reference>
+            <title>National Insti-  tute of Standards and</title>
+            <marker>[1]</marker>
+            <date>
+                <year>(1994).</year>
+            </date>
+            <date>
+                <year>20899.</year>
+            </date>
+            <authors>
+                <person>
+                    <person-first>D. (</person-first>
+                    <person-last>Harman</person-last>
+                </person>
+            </authors>
+            <venue />
+            <venue>
+                <booktitle>Overview of the Third  Text REtrieval Conference (TREC</booktitle>
+                <pages>-3).</pages>
+            </venue>
+            <venue>
+                <journal>Technology Special Publication</journal>
+                <address>Gaithersburg, Md.</address>
+                <volume>500</volume>
+                <pages>-225,</pages>
+            </venue>
+        </reference>
+        <reference>
+            <marker>[2]</marker>
+            <date>
+                <year>(1996).</year>
+            </date>
+            <authors>
+                <person>
+                    <person-first>D.  (</person-first>
+                    <person-last>Harman</person-last>
+                </person>
+            </authors>
+            <venue />
+            <venue>
+                <booktitle>The  Fourth  Text  REtrieval Conference (TREC-4).</booktitle>
+            </venue>
+        </reference>
+        <reference>
+            <title>Report on the Need for and Provision of an  '?deal"  Information Retrieval Test Collection,</title>
+            <marker>[3]</marker>
+            <date>
+                <year>(1975).</year>
+            </date>
+            <authors>
+                <person>
+                    <person-first>Jones</person-first>
+                    <person-last>Sparck</person-last>
+                </person>
+                <person>
+                    <person-first>C.</person-first>
+                    <person-last>Van  Rijsbergen</person-last>
+                </person>
+            </authors>
+            <venue />
+            <venue>
+                <booktitle>British Library  Research  and Development Report</booktitle>
+            </venue>
+        </reference>
+    </references>
+</document>

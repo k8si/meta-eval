@@ -14,6 +14,9 @@ object Config {
   val aclCitationEdges = s"$aclHome/${config.getString("data.acl.citationEdges")}"
   val aclIdWhiteList = s"$aclHome/${config.getString("data.acl.idWhiteList")}"
 
+  println(s"Config: root = $root")
+  println(s"Config: dataHome = $dataHome")
+
   val grobidRoot = s"$root/${config.getString("grobid.root")}"
   val grobidHome = s"$grobidRoot/grobid-home"
   lazy val grobidJar = new File(s"$grobidRoot/grobid-core/target")
@@ -36,7 +39,7 @@ object Config {
 
   /* rpp */
   val rppHome = s"$root/${config.getString("rpp.home")}"
-  val rppExtracted = s"$aclExtracted/rpp"
+  val rppAclExtracted = s"$aclExtracted/rpp"
   val rppLexicons = s"$root/${config.getString("rpp.lexicons")}"
 
   val verboseLabelFormat = config.getBoolean("verboseLabelFormat")
